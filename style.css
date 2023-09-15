@@ -274,3 +274,110 @@ margin-left: 15px;
         
         padding-top: 5px;
     }
+    @media all and (min-width: 300px) and (max-width:699px){
+        .box{
+            width : 46%;
+            height: 16rem;
+        }
+
+        .box h2{
+            font-size: 0.85rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+        .box-img{
+            height: 12rem;
+        }
+        .box p{
+            text-align: center;
+        }
+
+        .foot-panel2{
+            flex-wrap : wrap
+        }
+        .add-first{
+            white-space: nowrap;
+            font-size: 0.7rem;
+            margin-left: 0px;
+        }
+        .add-second{
+            font-size: 0.7rem;
+        }
+        .add-icon>i{
+            font-size: 0.7rem;
+        }
+        .nav-search{
+            width: 70px;
+            height: 30px;
+        }
+        .search-input{
+            font-size: 0.7rem;
+        }
+
+        .search-select{
+            font-size: 0.7rem;
+        }
+        .nav-second{
+            font-size: 0.7rem;
+        }
+
+        .nav-signin{
+
+            white-space: nowrap;
+        }
+        .nav-return{
+            white-space: nowrap;
+        }
+        .nav-cart i {
+            font-size: 0.7rem;
+        }
+        .nav-cart{
+            font-size: 0.7rem;
+            white-space: nowrap;
+        }
+        .panel-all{
+            white-space: nowrap;
+        }
+        .panel-ops {
+            width: 70%;
+            white-space: nowrap;
+            font-size: 0.7rem;
+        }
+        .logo{
+            width: 85px;
+        }
+        .panel-deals{
+            font-size: 0.7rem;
+            white-space: nowrap;
+            display: none;
+        }
+        .hero-msg {
+            background-color: white;
+            color: black;
+            /* height: 40px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            width: 80%;
+            margin: 1rem;
+            /* margin-bottom: 25px; */
+            /* background: transparent; */
+            /* color: white; */
+        }
+        .hero-section {
+            background-image: url(./hero_image.jpg);
+            background-size: auto;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            /* align-items: flex-end; */
+        }
+        .nav-return{
+            display: none;
+        }
+        .panel{
+            overflow: hidden;
+        }
+
+    }
